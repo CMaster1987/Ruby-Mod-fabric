@@ -2,6 +2,8 @@ package cl.c_master.rubymod.utils;
 
 import cl.c_master.rubymod.RubyMod;
 import net.minecraft.block.Block;
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.EntityType;
 import net.minecraft.item.*;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
@@ -43,5 +45,10 @@ public class RegistryHelper
 	public static Item registerBlockItem(Block block, ItemGroup itemGroup)
 	{
 		return registerBlockItem(new BlockItem(block, new Item.Settings().group(itemGroup)));
+	}
+	//Register Entities!
+	public static <T extends Entity> EntityType<T> registerEntityType(String id, EntityType.Builder<T> type)
+	{
+		return Registry.register(Registry.ENTITY_TYPE, RubyMod.MODID + ":" + id, type.build(RubyMod.MODID + ":" + id));
 	}
 }

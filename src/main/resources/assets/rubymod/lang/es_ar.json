@@ -1,7 +1,9 @@
 {
     "block.rubymod.ruby_ore": "Mineral de rubí",
     "block.rubymod.ruby_block": "Bloque de rubí",
+    "block.rubymod.magic_dust_lantern": "Faról de polvo mágico",
     "item.rubymod.ruby": "Rubí",
     "item.rubymod.ruby_fragments": "Fragmentos de rubí",
-    "item.rubymod.magic_dust": "Polvo mágico"
+    "item.rubymod.magic_dust": "Polvo mágico",
+    "entity.rubymod.ruby_monstruosity": "Monstruosidad de rubí"
 }

@@ -1,0 +1,24 @@
+{
+    "type": "crafting_shaped",
+    "pattern":
+    [
+        "nnn",
+        "nmn",
+        "nnn"
+    ],
+    "key":
+    {
+        "n":
+        {
+            "item": "minecraft:iron_nugget"
+        },
+        "m":
+        {
+            "item": "rubymod:magic_dust"
+        }
+    },
+    "result":
+    {
+        "item": "rubymod:magic_dust_lantern"
+    }
+}

@@ -21,6 +21,10 @@
   "entrypoints": {
     "main": [
       "cl.c_master.rubymod.RubyMod"
+    ],
+    "client":
+    [
+      "cl.c_master.rubymod.RubyModClient"
     ]
   },
   "mixins":

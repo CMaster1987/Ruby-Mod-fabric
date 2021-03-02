@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "hanging=true": {"model": "rubymod:block/hanging_magic_dust_lantern"},
+        "hanging=false": {"model": "rubymod:block/magic_dust_lantern"}
+    }
+}
